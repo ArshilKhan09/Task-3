@@ -19,9 +19,13 @@ header {
     padding: 15px;
 }
 
-/* Navigation*/
+/* Flexbox Applied to Navigation*/
 nav {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 nav a {
@@ -53,8 +57,11 @@ section {
     background-color: #fafafa;
 }
 
-/* Home section */
-#home {
+/* Home section Alignment */
+#home article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
@@ -77,22 +84,25 @@ h2 {
     padding-bottom: 5px;
 }
 
-/* Paragraphs */
-p {
-    margin-top: 10px;
+/*Skills Section Using Flexbox*/
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style-type: none;
+    margin-top: 15px;
 }
 
-/* Skills List*/
-ul {
-    margin-top: 10px;
-    margin-left: 20px;
+#skills li {
+    background-color: #eaeaea;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-li {
-    margin-bottom: 8px;
-}
+/* Contact Section */
 
-/* Contact section*/
 #contact a {
     color: #0066cc;
     text-decoration: none;
@@ -104,8 +114,9 @@ li {
 
 /* Footer */
 footer {
-    text-align: center;
-    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 15px;
     background-color: #222;
     color: #ffffff;
