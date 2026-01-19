@@ -1,0 +1,112 @@
+/* Reset default browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section*/
+header {
+    background-color: #000000;
+    padding: 15px;
+}
+
+/* Navigation*/
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 12px;
+    border: 1px solid transparent;
+}
+
+nav a:hover {
+    border: 1px solid #ffffff;
+}
+
+/* Main content*/
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+}
+
+/* All sections */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    background-color: #fafafa;
+}
+
+/* Home section */
+#home {
+    text-align: center;
+}
+
+#home img {
+    margin-top: 15px;
+    border: 2px solid #ccc;
+    padding: 5px;
+}
+
+/* Headings */
+h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Paragraphs */
+p {
+    margin-top: 10px;
+}
+
+/* Skills List*/
+ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Contact section*/
+#contact a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #222;
+    color: #ffffff;
+}
