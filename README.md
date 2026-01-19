@@ -1,50 +1,53 @@
-# Task 2 – Profile Page Styling Using CSS Box Model
+# Task 3 – Responsive Layout Using Flexbox
 
 ## Overview
-This task focuses on styling a basic profile page using CSS. The objective is to understand and apply the CSS box model concepts such as margin, padding, border, and content to create a visually structured layout.
+This task focuses on creating a responsive layout using CSS Flexbox. The goal is to align and structure page elements such as navigation links, content sections, and skill items so they adapt well to different screen sizes.
 
-The HTML structure from Task 1 is reused, and a separate CSS file is added for styling.
+The profile page from previous tasks is reused and enhanced using Flexbox properties.
 
 ---
 
 ## Technologies Used
 - HTML5
-- CSS3
+- CSS3 (Flexbox)
 - VS Code
 - Browser Developer Tools
 
 ---
 
 ## What I Did
-- Created a separate `style.css` file and linked it to the HTML file
-- Applied global styles like font family, background color, and text color
-- Used CSS box model properties (margin, padding, border) to space elements properly
-- Styled headings, paragraphs, and lists to improve visual hierarchy
-- Used class-based CSS instead of inline styles for better scalability
-- Used browser DevTools to inspect and adjust spacing
+- Created a new repository specifically for Task 3
+- Reused HTML structure from earlier tasks
+- Applied Flexbox to navigation bar for horizontal alignment
+- Used Flexbox in sections like skills for responsive layout
+- Implemented `flex-wrap` to support smaller screens
+- Used `justify-content` and `align-items` for proper positioning
+- Tested responsiveness using browser resize and device simulation
 
 ---
 
-## Concepts Covered
-- CSS Box Model
-- Difference between margin and padding
-- Cascading behavior in CSS
-- Class-based styling
-- Layout structuring using spacing
+## Flexbox Properties Used
+- `display: flex`
+- `flex-direction`
+- `justify-content`
+- `align-items`
+- `flex-wrap`
+- `gap`
 
 ---
 
 ## Folder Structure
-Task 2/
+Task 3/
 |
 |-- index.html
+|--profile.jpeg
 |-- style.css
 |-- README.md
 
 ---
 
 ## Outcome
-A clean and visually structured profile page demonstrating proper use of the CSS box model and modern styling practices.
+A responsive and mobile-friendly profile page demonstrating proper use of Flexbox for layout and alignment.
 
 ---
 
