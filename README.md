@@ -37,12 +37,12 @@ The profile page from previous tasks is reused and enhanced using Flexbox proper
 ---
 
 ## Folder Structure
-Task 3/
-|
-|-- index.html
-|--profile.jpeg
-|-- style.css
-|-- README.md
+Task 3/<br>
+|<br>
+|-- index.html<br>
+|--profile.jpeg<br>
+|-- style.css<br>
+|-- README.md<br>
 
 ---
 
