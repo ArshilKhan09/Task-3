@@ -31,7 +31,6 @@ nav {
 nav a {
     color: #ffffff;
     text-decoration: none;
-    margin: 0 15px;
     padding: 8px 12px;
     border: 1px solid transparent;
 }
@@ -42,7 +41,7 @@ nav a:hover {
 
 /* Main content*/
 main {
-    max-width: 800px;
+    width: 100%;
     margin: 30px auto;
     padding: 20px;
     background-color: #ffffff;
